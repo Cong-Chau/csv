@@ -16,7 +16,7 @@ struct Student {
 void readfile(Student*& x) {
 	char tmp[max];
 //	cin.ignore();
-	cout << "Link file: ";
+//	cout << "Link file: ";
 	cin.getline(tmp, max);
 	ifstream read(tmp, ios::in);
 	if (read.is_open()) {
